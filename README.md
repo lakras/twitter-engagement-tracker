@@ -40,7 +40,8 @@ Run `getTwitterFollowsMetrics` in `Code.gs` (`Run` → `Run function` → `getTw
 The script generates one row for every user you follow. After that, the script also generates one row for every user you _don't_ follow who has liked or retweeted one of your 200 most recent tweets, in case you'd like to check them out. :)
 
 Columns generated:
-- `user` username or user id with link to their twitter page
+- `user` username, if it is available
+- `link` username or user id with link to their twitter page
 - `followers` number users following user
 - `follows` number users that user is following
 - `location` user's location
