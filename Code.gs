@@ -235,6 +235,7 @@ function addNonFollows()
       }
       
       spreadsheet.appendRow([
+	'',
         '=hyperlink("https://twitter.com/intent/user?user_id=' + userID + '","' + userID + '")',
         '',
         '',
@@ -260,6 +261,7 @@ function getTwitterFollowsMetrics()
   var spreadsheet = SpreadsheetApp.getActive().getActiveSheet();
   spreadsheet.appendRow([
     'user',
+    'link',
     'followers',
     'follows',
     'location',
@@ -282,6 +284,7 @@ function getTwitterFollowsMetrics()
       {
         var user = parsedResponse.users[userNumber];
         spreadsheet.appendRow([
+          user.screen_name,
           '=hyperlink("http://twitter.com/' + user.screen_name + '","' + user.name + '")',
           user.followers_count,
           user.friends_count,
