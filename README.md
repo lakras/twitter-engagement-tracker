@@ -52,7 +52,7 @@ Columns generated:
 ## Analysis ##
 If you're new to Google Spreadsheets, you might find the following helpful:
 1. `View` → `Freeze` → `1 row`.
-2. Highlight the first row. `Data` → `Turn on filter`.
+2. Highlight the first row. `Data` → `Create a filter`.
 3. Click the triangle on the lower right of each title in the first row to sort and filter your data.
 
 ## Sources ##
