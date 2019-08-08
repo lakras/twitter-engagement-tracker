@@ -49,6 +49,12 @@ Columns generated:
 - `retweets in last 200 tweets` number of your 200 most recent tweets that user has retweeted
 - `retweets in last 20 tweets` number of your 20 most recent tweets that user has retweeted
 
+## Analysis ##
+If you're new to Google Spreadsheets, you might find the following helpful:
+1. `View` → `Freeze` → `1 row`.
+2. Highlight the first row. `Data` → `Turn on filter`.
+3. Click the triangle on the lower right of each title in the first row to sort and filter your data.
+
 ## Sources ##
 A big thank you to the following, which I mercilessly pillaged:
 - https://ctrlq.org/code/19963-twitter-followers-script
